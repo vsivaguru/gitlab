@@ -1,6 +1,8 @@
 Runner Kube :
 L'installation ce fait via helm :
 
+https://docs.gitlab.com/runner/install/kubernetes.html
+
 
 #Commande helm
 helm template --namespace=gitlab-runner --name=synapps . | kubectl apply --namespace=gitlab-runner --context=staging -f -
