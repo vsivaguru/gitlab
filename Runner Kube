@@ -6,3 +6,6 @@ https://docs.gitlab.com/runner/install/kubernetes.html
 
 #Commande helm
 helm template --namespace=gitlab-runner --name=synapps . | kubectl apply --namespace=gitlab-runner --context=staging -f -
+
+#Modifier la clé public pour le runner:
+https://gitlab-synapps.fr.clara.net/synapps/synapps-gdpr/-/settings/repository
